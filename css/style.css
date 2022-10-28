@@ -1,0 +1,308 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css");
+
+body {
+    font-family: 'Pretendard';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1em;
+}
+
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/********** reset **********/
+#wrap {
+    min-width: 500px;
+}
+
+.header_inner {
+    width: calc(100% - 20px);
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header_inner .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header_inner .gnb {
+    display: none;
+}
+
+.header_inner .util {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.header_inner .util .insta {
+    display: none;
+}
+
+.header_inner .util .my {
+    display: none;
+}
+
+#mainVisual {
+    width: 100%;
+    height: 375px;
+}
+
+.visual_img {
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+    background-image: url(../img/mainVisual.jpg);
+    background-size: cover;
+}
+
+section {
+    width: calc(100% - 20px);
+    height: 675px;
+    margin: 0 auto;
+    position: relative;
+}
+
+section h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+section .gift_list {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 360px;
+    height: 430px;
+    margin-left: 50px;
+}
+
+.arrows {
+    width: 37px;
+    height: 70px;
+}
+
+section .arrows .prev {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 0;
+}
+
+section .arrows .next {
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 0;
+}
+
+
+section .pager {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pager li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.pager li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    /* background-color: pink; */
+    border: 2px solid pink;
+    border-radius: 50%;
+    font-size: 0;
+}
+
+.pager li.on a {
+    display: block;
+    width: 40px;
+    background-color: pink;
+    border-radius: 20px;
+}
+
+.reser {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.rs_img {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/reservation.jpg);
+    position: relative;
+    padding: 10px 0;
+}
+
+.rs_img h2 {
+    display: block;
+    width: calc(100% - 50px);
+    height: 280px;
+    text-align: center;
+    line-height: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 10px solid #fff;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sptr {
+    width: calc(100% - 20px);
+    height: 900px;
+}
+
+.sptr h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.sptr .tr_list {
+    width: calc(100% - 20px);
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sptr .tr_list a div {
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.sptr .tr_list .txt {
+    margin-top: 20px;
+}
+
+.sptr .tr_list .txt li {
+    margin-top: 10px;
+}
+
+.sptr .tr_list .txt .main {
+    color: hotpink;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sptr .tr_list .txt .hash {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.sptr .tr_list .txt span {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.sptr .tr_list>li:nth-child(1) a div div {
+    background-image: url(../img/tour01.jpg);
+}
+
+.sptr .tr_list>li:nth-child(2) a div div {
+    background-image: url(../img/tour02.jpg);
+}
+
+.sptr .tr_list>li:nth-child(3) a div div {
+    background-image: url(../img/tour03.jpg);
+}
+
+.sptr .tr_list>li:nth-child(4) a div div {
+    background-image: url(../img/tour04.jpg);
+}
+
+#footer {
+    border-top: 1px solid #aaa;
+}
+
+.ft_inner {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+}
+
+.ft_left {
+    margin-top: 15px;
+    display: block;
+    padding: 30px 0;
+    position: relative;
+}
+
+
+.ft_menu li {
+    border-right: 1px solid #aaa;
+    float: left;
+    margin-right: 15px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 15px;
+}
+
+.ft_menu span {
+    color: hotpink;
+}
+
+.ft_menu li:last-child {
+    border-right: 0;
+}
+
+.ft_left p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.ft_right {
+    text-align: center;
+    margin-bottom: 20px;
+}

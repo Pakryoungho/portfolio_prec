@@ -1,0 +1,680 @@
+#wrap {
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 1240.5px;
+}
+
+#header>div {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/skynight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerin {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: inherit;
+    position: relative;
+}
+
+.gnb ul {
+    display: flex;
+    color: #fef004;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gnb ul li {
+    margin: 65px 45px;
+}
+
+.gnb ul li a {
+    margin-left: 65px;
+}
+
+.txt {
+    color: #fff;
+    text-align: center;
+    margin-top: 350px;
+}
+
+.txt h2 {
+    display: block;
+    position: relative;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: 'Batang';
+    letter-spacing: 3px;
+}
+
+.txt .line {
+    display: block;
+    width: 588px;
+    height: 2px;
+    background-color: #2d73ad;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.txt p {
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.txt span {
+    color: #fef004;
+    font-size: 50px;
+    font-family: 'Batang';
+}
+
+#container {
+    width: 100%;
+    height: 1240.5px;
+    background-color: #121349;
+    opacity: 0.9;
+    padding-top: 1px;
+    position: relative;
+
+}
+
+.container_inner {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+section {
+    color: #fff;
+}
+
+.imp_tp {
+    width: 1200px;
+    height: 573px;
+    position: absolute;
+}
+
+.my_img {
+    width: 284px;
+    height: 300px;
+    background-color: #aaa;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 150px;
+}
+
+.imp_tp .cont_txt {
+    position: absolute;
+}
+
+.imp_tp .cont_txt {
+    width: 282px;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    font-size: 35px;
+    text-align: left;
+    line-height: 40px;
+
+}
+
+.class {
+    position: absolute;
+    top: 60px;
+    left: 67%;
+    transform: translate(-50%, 50%);
+}
+
+.ex h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+}
+
+.ex p {
+    font-size: 20px;
+}
+
+
+.ed h3 {
+    font-size: 30px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.ed p {
+    font-size: 20px;
+}
+
+.imp_bt {
+    position: relative;
+    width: 1200px;
+    height: 475px;
+    left: 0;
+    bottom: -100%;
+
+}
+
+.per {
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.per h3 {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.percent {
+    width: 288px;
+    height: 250px;
+    position: relative;
+}
+
+.per p {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.percent .graphs {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 180px;
+    height: 19px;
+    border-radius: 10px;
+}
+
+.sub .graphs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5px;
+}
+
+
+.sub .graphs>div {
+    position: absolute;
+    width: 162px;
+    height: 19px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.emp .graphs {
+    position: absolute;
+    top: 56px;
+    right: 0;
+    margin-top: 5px;
+}
+
+.emp .graphs>div {
+    position: absolute;
+    width: 137px;
+    height: 19px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.pos .graphs {
+    position: absolute;
+    top: 111px;
+    right: 0;
+    margin-top: 5px;
+}
+
+.pos .graphs>div {
+    position: absolute;
+    width: 155px;
+    height: 19px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.con .graphs {
+    position: absolute;
+    top: 166px;
+    right: 0;
+    margin-top: 5px;
+}
+
+.con .graphs>div {
+    position: absolute;
+    width: 171px;
+    height: 19px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.sk {
+    position: absolute;
+    top: 0;
+    right: 40%;
+    transform: translateX(50%);
+}
+
+.sk h3 {
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.sk p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.percent2 {
+    width: 320px;
+    height: 300px;
+    position: relative;
+}
+
+.percent2 li p {
+    font-size: 20px;
+}
+
+.percent2 .graph {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 180px;
+    height: 19px;
+    border-radius: 10px;
+}
+
+.PS .graph {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5px;
+}
+
+.PS .graph>div {
+    position: absolute;
+    width: 153px;
+    height: 19px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.AI .graph {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    margin-top: 5px;
+}
+
+.AI .graph>div {
+    position: absolute;
+    width: 135px;
+    height: 19px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.HTMLCSS .graph {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    margin-top: 5px;
+}
+
+.HTMLCSS .graph>div {
+    position: absolute;
+    width: 144px;
+    height: 19px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.JS .graph {
+    position: absolute;
+    top: 165px;
+    right: 0;
+    margin-top: 5px;
+}
+
+.JS .graph>div {
+    position: absolute;
+    width: 108px;
+    height: 19px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.JQ .graph {
+    position: absolute;
+    top: 220px;
+    right: 0;
+    margin-top: 5px;
+}
+
+.JQ .graph>div {
+    position: absolute;
+    width: 126px;
+    height: 19px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#ed_de {
+    width: 100%;
+    height: 1240.5px;
+    position: relative;
+    background: url(../img/DESIGN_BG.jpg)no-repeat center center /cover;
+}
+
+.pager {
+    position: fixed;
+    top: 50%;
+    right: 50px;
+    z-index: 100;
+
+}
+
+.pager li {
+    display: block;
+    width: 55px;
+    height: 3px;
+    background-color: #fff;
+    border: 1px solid #3689cc;
+    margin-bottom: 35px;
+    transition: all 0.2s;
+    border-radius: 50%;
+}
+
+.pager li:last-child {
+    margin-bottom: 0;
+}
+
+.pager li:hover {
+    background-color: #f4e70d;
+    width: 80px;
+    height: 1px;
+    border: none;
+    line-height: 1.5em;
+}
+
+.pager li a {
+    display: none;
+}
+
+.pager li:hover a {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.de_in {
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.de_txt {
+    font-size: 40px;
+    color: #f4e70d;
+    position: absolute;
+    top: 105px;
+    left: 0;
+}
+
+
+.img_box {
+    width: calc(900px - 50px);
+    height: 850px;
+    background-color: rgba(20, 22, 47, 0.4);
+    position: relative;
+    top: 265px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+
+}
+
+.de_img>li {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 50%;
+}
+
+.de_img>li:hover {
+    transform: scale(1.2);
+    opacity: 0.6;
+}
+
+.de_img .tour1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.de_img .tour2 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.de_img .tour3 {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.de_img .tour4 {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.de_img li img {
+    width: 350px;
+    height: 350px;
+}
+
+
+#web_p {
+    width: 100%;
+    height: 1240.5px;
+}
+
+#web_p>div {
+    background: url(../img/WPbg.jpg)no-repeat center center / cover;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+
+}
+
+.wp_inner {
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.tag h2 {
+    position: absolute;
+    top: 60px;
+    font-size: 40px;
+}
+
+.logo {
+    position: absolute;
+    top: 105px;
+    left: -35px;
+    transform: translateY(50%);
+}
+
+.text h3 {
+    position: absolute;
+    top: 310px;
+    left: 11px;
+    transform: translateY(50%);
+    color: #fef004;
+    font-size: 25px;
+    font-family: 'HYGOthic-Extra';
+    font-weight: bold;
+    letter-spacing: 3px;
+    opacity: 0.6;
+}
+
+.over {
+    position: absolute;
+    left: 10px;
+    top: 49%;
+    transform: translateY(-50%);
+}
+
+.over h1 {
+    color: #fef004;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin: 15px 0;
+}
+
+.over p {
+    width: 440px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+.btn h2 {
+    display: block;
+    width: 330px;
+    height: 100px;
+    position: absolute;
+    bottom: 300px;
+    left: 0;
+    color: #fff;
+    background-color: #121349;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 100px;
+    transition: all 0.2s;
+    z-index: 50;
+}
+
+.btn h2:hover {
+    background-color: #fff;
+    opacity: 0.4;
+    color: #fef004;
+}
+
+.btn>div {
+    display: block;
+    width: 280px;
+    height: 5px;
+    background-color: #121349;
+    position: absolute;
+    bottom: 300px;
+    left: 30px;
+}
+
+.date2 {
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    color: #fff
+}
+
+.date2 p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.ipd {
+    position: absolute;
+    width: 300px;
+    height: 455px;
+    bottom: 33%;
+    left: 25%;
+    transform: translate(50%, 50%);
+}
+
+
+
+.iph {
+    width: 169px;
+    height: 344px;
+    position: absolute;
+    bottom: 435px;
+    right: 200px;
+    transform: translateY(50%);
+}
+
+.ipm {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    right: 32%;
+    top: 34%;
+    transform: translate(50%, -50%);
+}
+
+#footer {
+    width: 100%;
+    height: 1240.5px;
+}
+
+#footer>div {
+    background: url(../img/skynight.jpg)no-repeat center bottom/ cover;
+    height: 100%;
+}
+
+.ft_inner {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ft_txt {
+    height: 100%;
+    color: #fff;
+    text-align: left;
+}
+
+.ft_txt h1 {
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 130px;
+    margin-bottom: 150px;
+    padding-top: 150px;
+}
+
+.ft_txt span {
+    color: #aaa;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ft_txt h4 {
+    font-size: 55px;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    margin-bottom: 170px;
+    line-height: 60px;
+}
+
+.ft_txt p {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: lighter;
+}
